@@ -6,30 +6,3 @@
     {{> login}}
   {{/if}}
 </body>
-
-<template name="login">
-  <label for="username" id="username">Username:</label> &nbsp;
-  <input type="text" id="usernameInput" /> <br> <br>
-  <label for="password" id="password">Password:</label> &nbsp;
-  <input type="password" id="passwordInput" /> <br> <br>
-  <div>
-    <a href="#" class="js-show-register">Register</a>
-    <button>Login</button> <br> <br>
-  </div>
-</template>
-
-<template name="register">
-    <select> <br> &nbsp;
-    <option value="teacher">Teacher</option> <br> <br>
-    <option value="student">Student</option> <br> <br>
-  </select> &nbsp;
-    <label for="name" id="name">Name:</label> &nbsp;
-    <input type="text" id="nameInput" /> <br> <br>
-    <label for="password" id="password">Password:</label> &nbsp;
-    <input type="password" id="passwordInput" /> <br> <br>
-
-  <div>
-    <a href="#" class="js-show-login">Login</a>
-    <button>Register</button> <br> <br>
-  </div>
-</template>

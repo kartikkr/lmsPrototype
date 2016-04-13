@@ -1,3 +1,23 @@
 <template name="register">
-	<h1>Register page</h1>
+  <form>
+    <label for="firstname" id="firstname">First Name:</label> &nbsp;
+    <input type="text" id="firstnameInput" /> <br> <br>
+    <label for="lastname" id="lastname">Last Name:</label> &nbsp;
+    <input type="text" id="lastnameInput" /> <br> <br>
+    <label for="role" id="role">Select User Role:</label> &nbsp;
+    <select id="roleOption"> <br> &nbsp;
+      <option value="teacher">Teacher</option> <br> <br>
+      <option value="student">Student</option> <br> <br>
+    </select> <br> <br>
+    <label for = "username" id = "username"> Username: </label> &nbsp;
+    <input type = "text" id="usernameInput" /> <br> <br>
+    <label for="password" id="password">Password:</label> &nbsp;
+    <input type="password" id="passwordInput" /> <br> <br>
+    <label for="repeatpassword" id="repeatpassword">Repeat Password:</label> &nbsp;
+    <input type="password" id="repeatpasswordInput" /> <br> <br>
+  </form>
+  <div>
+    <a href="#" class="js-show-login">Login</a>
+    <button>Register</button> <br> <br>
+  </div>
 </template>
